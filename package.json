@@ -1,8 +1,21 @@
 {
-  "name": "main",
-  "description": "This is a quick starter set to tools using Grunt orchestrate everything. What's included? Compiling is done by Require.JS / AMD. Compiling/Watching SASS to valid minimized .CSS files. Javascript lint. BDD Unit testing by Jasmin / PhantomJS",
+  "name": "Grunt-Module-Bootstrap",
+  "version": "1.0.0",
+  "description": "This is a quick bootstrap project which will get you up and running in no time.",
   "main": "Gruntfile.js",
-  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LandRover/Grunt-Module-Bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LandRover/Grunt-Module-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/LandRover/Grunt-Module-Bootstrap",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-compass": "^1.0.1",
@@ -17,25 +30,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-template-jasmine-istanbul": "^0.3.0",
     "grunt-template-jasmine-requirejs": "^0.2.0",
+    "grunt-usemin": "^2.5.1",
     "load-grunt-tasks": "^1.0.0",
     "time-grunt": "^1.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:LandRover/Grunt-Module-Bootstrap.git"
-  },
-  "keywords": [
-    "Grunt",
-    "JavaScript"
-  ],
-  "author": "Oleg Glozman",
-  "license": "MIT",
-  "version": "0.1",
-  "bugs": {
-    "url": "https://github.com/LandRover/Grunt-Module-Bootstrap/issues"
-  },
-  "homepage": "https://github.com/LandRover/Grunt-Module-Bootstrap"
+  }
 }
