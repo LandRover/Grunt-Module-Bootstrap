@@ -348,6 +348,17 @@ module.exports = function (grunt) {
             }
         },
         
+        replace: {
+            release: {
+                src: '<%= build.release %>/index.html',
+                overwrite: true,
+                replacements: [{
+                    from: 'src/main',
+                    to: '<%= pkg.name %>.min'
+                }]
+            }  
+        },
+        
         
         copy: {
             release: {
@@ -357,7 +368,7 @@ module.exports = function (grunt) {
                 filter: 'isFile'
             }
         }
-        });
+    });
 
     // Default task
     grunt.registerTask('default', ['jshint', 'connect', 'jasmine', 'compass:dev']);
@@ -366,8 +377,8 @@ module.exports = function (grunt) {
     grunt.registerTask('test', ['connect', 'jasmine:run']);
     
     // Debug build task
-    grunt.registerTask('debug', ['jshint', 'test', 'requirejs', 'compass:dev', 'imagemin', 'htmlmin', 'copy']);
+    grunt.registerTask('debug', ['jshint', 'test', 'requirejs', 'compass:dev', 'imagemin', 'htmlmin', 'copy', 'replace:release']);
     
     // Release task
-    grunt.registerTask('release', ['jshint', 'test', 'requirejs', 'compass:release', 'imagemin', 'htmlmin', 'uglify', 'copy']);
+    grunt.registerTask('release', ['jshint', 'test', 'requirejs', 'compass:release', 'imagemin', 'htmlmin', 'uglify', 'copy', 'replace:release']);
 };
