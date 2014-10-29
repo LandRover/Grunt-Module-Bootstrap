@@ -1,0 +1,10 @@
+$supported-browsers: ('chrome', 'safari', 'firefox');
+@import 'compass';
+
+body {
+    border: 15px solid yellow;
+    p {
+        border: 15px solid red;
+        @include background-image(linear-gradient(to bottom right, #1a598c 0%,#024074 100%));
+    }
+}

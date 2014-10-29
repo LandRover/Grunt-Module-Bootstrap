@@ -1,0 +1,10 @@
+.release
+images
+css
+
+# http://dev-blog.cloud-spinners.com/2014/02/complete-grunt-deployment-workflow-for.html
+# Automaticlly created files after not needed to be checked in. Will be created if everything is in order.
+.sass-cache
+_SpecRunner.html
+.grunt
+node_modules
