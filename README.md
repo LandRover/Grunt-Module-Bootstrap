@@ -12,7 +12,7 @@ I've used this structure to build few Chrome extenstions and few JS libs which w
   - Jasmine + PhantomJS
   - Image optimizing for both PNG and JPG
 
-## Installing Pprerequisites
+## Installing Prerequisites
   - Install nodejs
   - Install Grunt (globally)
     - npm install -g grunt-cli
