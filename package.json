@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://github.com/LandRover/Grunt-Module-Bootstrap.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Oleg Glozman",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LandRover/Grunt-Module-Bootstrap/issues"
   },
@@ -30,7 +30,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-template-jasmine-istanbul": "^0.3.0",
     "grunt-template-jasmine-requirejs": "^0.2.0",
-    "grunt-usemin": "^2.5.1",
+    "grunt-text-replace": "^0.3.12",
     "load-grunt-tasks": "^1.0.0",
     "time-grunt": "^1.0.0"
   }
