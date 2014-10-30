@@ -1,0 +1,37 @@
+{
+    "boss": true,
+    "browser": true,
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    
+    "globals": {
+        // Env
+        "console": true,
+        
+        // Require / AMD
+        "define": true,
+        "module": true,
+        "require": true,
+        "requirejs": true,
+        
+        // jQuery
+        "$": true,
+        "jQuery": true,
+        
+        // Unit testing
+        "afterEach": true,
+        "beforeEach": true,
+        "describe": true,
+        "expect": true,
+        "it": true,
+        "sinon": true
+    }
+}

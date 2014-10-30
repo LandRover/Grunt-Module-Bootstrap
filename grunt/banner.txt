@@ -1,0 +1,5 @@
+/*! <%= pkg.name %>: version <%= pkg.version %>
+* Built on: <%= grunt.template.today("yyyy-mm-dd") %>
+* Author: <%= pkg.author %>
+* <%= pkg.description %>
+* Copyright (c) <%= grunt.template.today("yyyy") %> */
