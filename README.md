@@ -5,7 +5,8 @@ This is a quick bootstrap project which will get you up and running in no time.
 I've used this structure to build few Chrome extenstions and few JS libs which will be also published later on.
 
 ## What's inside?
-  - Require.JS / AMD
+  - Require.JS / AMD (r.js compiling)
+  - Almond
   - jQuery
   - Lo-Dash
   - SASS + Compass
