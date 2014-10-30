@@ -4,12 +4,14 @@
  * @construtor Artist
  
  */
-define(function() {
+define([
+    'dcl/dcl',
+    'dcl/bases/Mixer'
+], function(dcl, Mixer) {
     'use strict';
     
-    function Artist() {}
-    
-    Artist.prototype = {
+    var Artist = dcl(Mixer, {
+        constructor: function() {},
         
         /**
          * Sets the name of the artists
@@ -41,7 +43,7 @@ define(function() {
         isFeatured: function() {
             return (true === this.isArtistFeatured);
         }
-    };
+    });
     
     return Artist;
 });
