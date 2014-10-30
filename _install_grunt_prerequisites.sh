@@ -1,6 +1,7 @@
 #!/bin/bash
 
 npm install grunt --save-dev
+npm install grunt-contrib-clean --save-dev
 npm install grunt-contrib-compass --save-dev
 npm install grunt-contrib-connect --save-dev
 npm install grunt-contrib-copy --save-dev
