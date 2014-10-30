@@ -14,5 +14,6 @@ npm install grunt-contrib-watch --save-dev
 npm install grunt-template-jasmine-istanbul --save-dev
 npm install grunt-template-jasmine-requirejs --save-dev
 npm install grunt-text-replace --save-dev
+npm install load-grunt-config --save-dev
 npm install load-grunt-tasks --save-dev
 npm install time-grunt --save-dev
