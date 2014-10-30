@@ -20,7 +20,7 @@ I've used this structure to build few Chrome extenstions and few JS libs which w
     - npm install -g grunt-init
     - npm init (reads existing package.json file)
   - Install npm modules (locally)
-    - run attached ./_install_grunt_prerequisites.sh
+    - npm install
   - Run
     - grunt test
     - grunt debug
