@@ -1,7 +1,8 @@
 require.config({
     paths: {
         jquery: '../vendors/jquery/jquery',
-        lodash: '../vendors/lodash/lodash'
+        lodash: '../vendors/lodash/lodash',
+        dcl: '../node_modules/dcl'
     },
     
     shim: {
