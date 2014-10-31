@@ -20,7 +20,6 @@ define([
         it('it can set Artist as featured', function() {
             artist.setName('Bob Dylan').setFeatured();
             
-            
             expect(artist.isFeatured()).toBe(true);
         });
     });
