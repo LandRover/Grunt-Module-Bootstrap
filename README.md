@@ -14,7 +14,7 @@ I've used this structure to build few Chrome extenstions and few JS libs which w
   - Image optimizing for both PNG and JPG
 
 ## Installing Prerequisites
-  - Install nodejs
+  - Install nodejs & Ruby
   - Install Grunt (globally)
     - npm install -g grunt-cli
     - npm install -g grunt-init
@@ -28,6 +28,6 @@ I've used this structure to build few Chrome extenstions and few JS libs which w
     
 
 ## @todo
-  - Replace vendor require.js with node_modules/requirejs for 'release'
-  - Split the Grunt tasks to smaller, maintainable chunks
+  - Remove requirejs from vendors (now uses npm requirejs instead of duplicated internal lib)
   - split scss files to smaller units, have a scss config file to set browser and other settings
+  - construct a sample js src layout for a jquery plugin
