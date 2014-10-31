@@ -3,8 +3,8 @@ module.exports = {
         src: '<%= build.release %>/index.html',
         overwrite: true,
         replacements: [{
-            from: 'src/main',
-            to: '<%= pkg.name %>.min'
+            from: 'data-main="src/main" src="vendors/require/require.min.js"',
+            to: 'src="Grunt-Module-Bootstrap.min.js"'
         }]
     }
 };
