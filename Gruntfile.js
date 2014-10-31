@@ -61,7 +61,6 @@ module.exports = function (grunt) {
         'compass:dev',
         'imagemin',
         'htmlmin',
-        'copy',
         'replace:release',
         'clean:after_build'
     ]);
@@ -75,7 +74,6 @@ module.exports = function (grunt) {
         'imagemin',
         'htmlmin',
         'uglify',
-        'copy',
         'replace:release',
         'clean:after_build'
     ]);
