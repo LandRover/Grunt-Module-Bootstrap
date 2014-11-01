@@ -28,6 +28,5 @@ I've used this structure to build few Chrome extenstions and few JS libs which w
     
 
 ## @todo
-  - Remove requirejs from vendors (now uses npm requirejs instead of duplicated internal lib)
   - split scss files to smaller units, have a scss config file to set browser and other settings
   - construct a sample js src layout for a jquery plugin
