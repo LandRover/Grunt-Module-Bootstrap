@@ -2,13 +2,12 @@ module.exports = function (grunt) {
     /*
     Install Grunt:
     -------------------
-        npm install -g grunt-cli
-        npm install -g grunt-init
+        npm install -g grunt-cli grunt-init
         npm init (reads existing package.json file)
     
     Install Grunt Prerequisites:
     ---------------------
-        ./_install_grunt_prerequisites.sh
+        npm install
     
     Gem Prerequisites:
     -----------------
